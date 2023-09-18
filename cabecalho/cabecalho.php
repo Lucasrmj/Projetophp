@@ -62,17 +62,17 @@
                           Categorias
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="generos/acao.php">Ação</a></li>
-                          <li><a class="dropdown-item" href="generos/suspense.php">Suspense</a></li>
-                          <li><a class="dropdown-item" href="generos/terror.php">Terror</a></li>
-                          <li><a class="dropdown-item" href="generos/romance.php">Romance</a></li>
-                          <li><a class="dropdown-item" href="generos/drama.php">Drama</a></li>
-                          <li><a class="dropdown-item" href="generos/scifi.php">Sci-fi</a></li>
-                          <li><a class="dropdown-item" href="generos/ficcao.php">Ficção</a></li>
-                          <li><a class="dropdown-item" href="generos/historia.php">História</a></li>
-                          <li><a class="dropdown-item" href="generos/mangas.php">Mangás</a></li>
-                          <li><a class="dropdown-item" href="generos/artes.php">Arte</a></li>
-                          <li><a class="dropdown-item" href="generos/culinaria.php">Culinaria</a></li>
+                          <li><a class="dropdown-item" href="../generos/acao.php">Ação</a></li>
+                          <li><a class="dropdown-item" href="../vgeneros/suspense.php">Suspense</a></li>
+                          <li><a class="dropdown-item" href="../generos/terror.php">Terror</a></li>
+                          <li><a class="dropdown-item" href="../generos/romance.php">Romance</a></li>
+                          <li><a class="dropdown-item" href="../generos/drama.php">Drama</a></li>
+                          <li><a class="dropdown-item" href="../generos/scifi.php">Sci-fi</a></li>
+                          <li><a class="dropdown-item" href="../generos/ficcao.php">Ficção</a></li>
+                          <li><a class="dropdown-item" href="../generos/historia.php">História</a></li>
+                          <li><a class="dropdown-item" href="../generos/mangas.php">Mangás</a></li>
+                          <li><a class="dropdown-item" href="../generos/artes.php">Arte</a></li>
+                          <li><a class="dropdown-item" href="../generos/culinaria.php">Culinaria</a></li>
                         </ul>
                     </ul>
                   </div>

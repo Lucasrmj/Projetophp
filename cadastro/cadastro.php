@@ -42,7 +42,7 @@
         <div class="form-row">
           <div class="form-group col-md-9">
             <label for="inputCity">Telefone</label>
-            <input type="text" class="form-control" id="inputCity" name="telefone" placeholder="Telefone (Opcional)">
+            <input type="text" class="form-control" id="inputCity" name="telefone" placeholder="Telefone">
           </div>
 
         </div>

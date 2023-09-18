@@ -17,5 +17,20 @@ create table adm (
     senha varchar(50)
     );
     
+create table usuario(
+    username varchar(45),
+    senha varchar(45)
+    );
+
+create table cadastro(
+    nome  varchar(45),
+    email varchar(60),
+    senha varchar(45),
+    telefone varchar(45)
+    );
+    
 insert into adm values ("adm2023","1234");
 select * from produto; 
+drop table produto;
+
+

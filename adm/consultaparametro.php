@@ -133,7 +133,7 @@
 <?php
 if (isset($_GET['pesquisa'])) {
     // Inclua seu arquivo de conexão
-    include '../conexao.php';
+    include ('../conexao.php');
 
     $pesquisa = $_GET['pesquisa'];
     $genero = isset($_GET['genero']) ? $_GET['genero'] : '';
