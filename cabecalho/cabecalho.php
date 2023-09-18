@@ -74,6 +74,12 @@
                           <li><a class="dropdown-item" href="../generos/artes.php">Arte</a></li>
                           <li><a class="dropdown-item" href="../generos/culinaria.php">Culinaria</a></li>
                         </ul>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../contato/contato.php" id="palavras">
+                        <img src="img/arroba.png" height="35px" width="35px">
+                        Fale Conosco
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>

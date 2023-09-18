@@ -1,7 +1,37 @@
-<?php
-include("../conexao.php");
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sua Página PHP Estilizada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #34383B;
+        }
 
+        .livro {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+        }
 
+        .livro h2 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .livro p {
+            margin: 0;
+        }
+        h1{
+            color: #00bf63;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <?php
+    include("../conexao.php");
 
     // Conecte-se ao banco de dados
     $servername = "localhost";
@@ -22,16 +52,19 @@ include("../conexao.php");
     if ($result->num_rows > 0) {
         // Exiba os livros encontrados
         while ($row = $result->fetch_assoc()) {
-            echo "Título: " . $row["nome"] . "<br>";
-            echo "Preço: " . $row["preco"] . "<br>";
-            echo "Descrição: " . $row["descricao"] . "<br>";
-            echo "Gênero: " . $row["genero"] . "<br>";
+            echo '<div class="livro">';
+            echo '<h2>Título: ' . $row["nome"] . '</h2>';
+            echo '<p>Preço: ' . $row["preco"] . '</p>';
+            echo '<p>Descrição: ' . $row["descricao"] . '</p>';
+            echo '<p>Gênero: ' . $row["genero"] . '</p>';
             // Adicione aqui outras informações que deseja exibir
-            echo "<hr>";
+            echo '</div>';
         }
     } else {
-        echo "Nenhum livro encontrado para o gênero '$genero'.";
+        echo "<h1>Nenhum livro encontrado para o gênero 'drama'.</h1>";
     }
 
     $conn->close();
-?>
+    ?>
+</body>
+</html>

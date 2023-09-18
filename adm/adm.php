@@ -21,7 +21,7 @@
         <div class="content">
             <form method="POST" action="enviar.php" enctype="multipart/form-data"> 
                 <fieldset>
-                    <label for="nome">ID Do Produto: </label>
+                    <label for="id">ID Do Produto: </label>
                     <input type="text" name="id" placeholder="id do produto" id="id"><br>
 
                     <label for="nome">Nome da Imagem: </label>
@@ -30,11 +30,23 @@
                     <label for="preco">Preço:</label>
                     <input type="text" name="preco" placeholder="Preço" id="preco">
                     <br>
-                    <label for="preco">Descrição:</label>
+                    <label for="desc">Descrição:</label>
                     <input type="text" name="descricao" placeholder="descrição" id="descricao">
                     <br>
-                    <label for="preco">Gênero:</label>
-                    <input type="text" name="genero" placeholder="genero" id="genero">
+                    <label for="genero">Gênero:</label>
+                    <select name="genero">
+                    <option value="acao"> Ação </option>
+                    <option value="culinaria"> Culinária </option>
+                    <option value="drama"> Drama </option>
+                    <option value="ficcao"> Ficção </option>
+                    <option value="historia"> História </option>
+                    <option value="mangas"> Mangás </option>
+                    <option value="romance"> Romance </option>
+                    <option value="scifi"> Sci-fi </option>
+                    <option value="suspense"> Suspense </option>
+                    <option value="terror"> Terror </option>
+                    <option value="artes"> Artes </option>
+                    </select>
                     <br>
                     <input type="file" name="imagem" accept="image/*" > 
                     <p>
@@ -65,7 +77,7 @@
                 <img src="'.$imagemPath.'" class="card-img-top" >
                 <div class="card-body">
                     <h3 class="card-title"><b>Título:</b> '.$nome.'</h3>
-                    <h6 class="card-text"><b>Descrição:</b> '.$descricao.'<h6>
+                    <h6 class="card-text"><b>Descrição:</b> '.$descricao.'</h6>
                     <p class="card-text"><b>Preço:</b> '.$preco.'</p>
                     <p class="card-text"><b>Genero:</b> '.$genero.'</p>
                 </div>

@@ -31,6 +31,6 @@ create table cadastro(
     
 insert into adm values ("adm2023","1234");
 select * from produto; 
-drop table produto;
+
 
 
